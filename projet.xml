@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ORGANISME xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+    <AGENCES>
+    <AGENCE>
+        <NOM>Club aventure</NOM>
+        <ADRESSE>
+            <AVENUE>67 Rue Saint-Jacques</AVENUE>
+            <CODE_POSTAL>75005</CODE_POSTAL>
+            <VILLE>PARIS</VILLE>
+            <PAYS>FRANCE</PAYS>
+        </ADRESSE>
+        <SEJOURS>
+            <SEJOUR type="colonies de vacances">
+                <NOM>Séjour au japan</NOM>
+                <TYPES_PUBLIC>
+                    <TYPE_PUBLIC>adultes</TYPE_PUBLIC>
+                    <TYPE_PUBLIC>adolescents</TYPE_PUBLIC>
+                </TYPES_PUBLIC>
+                <DESCRIPTION>Venez améliorer votre niveau de japonais et découvrir la culture japonaise lors de notre colonie de vacances à Tokyo ! 
+                    &#xA; Pendant deux semaines, vous suivrez des cours de japonais le matin et participerez à des activités culturelles l'après-midi. &#xA; Logement en chambres partagées, encadrement assuré pour les jeunes de 14 à 18 ans. Inscrivez-vous dès maintenant !</DESCRIPTION>
+                <TARIF>500$</TARIF>
+                <ACTIVITEES>
+                    <ACTIVITEE type="Sport">
+                        <DESCRIPTION>Initiation à l'aïkido, art martial japonais basé sur la défense et le contrôle de l'adversaire</DESCRIPTION>
+                    </ACTIVITEE>
+                    <ACTIVITEE type="Sport">
+                        <DESCRIPTION>Randonnée dans les montagnes environnantes de Tokyo pour profiter de la nature et de la vue sur la ville</DESCRIPTION>
+                    </ACTIVITEE>
+                    <ACTIVITEE type="Culture">
+                        <DESCRIPTION>Atelier de calligraphie japonaise pour apprendre à écrire des kanjis (caractères japonais)</DESCRIPTION>
+                    </ACTIVITEE>
+                    <ACTIVITEE type="Culture">
+                        <DESCRIPTION>Visite du musée Edo-Tokyo pour découvrir l'histoire de Tokyo</DESCRIPTION>
+                    </ACTIVITEE>
+                </ACTIVITEES>
+                <SESSIONS>
+                    <SESSION id="s_1">
+                        <DEBUT>2023-03-30</DEBUT>
+                        <FIN>2023-04-15</FIN>
+                        <PARTICIPANTS>
+                            <PERSONNELS>
+                                <ENSEIGNANTS>
+                                    <ENSEIGNANT_REF idref="e_1" />
+                                    <ENSEIGNANT_REF idref="e_2" />
+                                </ENSEIGNANTS>
+                                <ACCOMPAGNATEURS>
+                                    <ACCOMPAGNATEUR_REF idref="a_1"/>
+                                    <ACCOMPAGNATEUR_REF idref="a_2" />
+                                </ACCOMPAGNATEURS>
+                            </PERSONNELS>
+                            <CLIENTS>
+                               <CLIENT_REF idref="cl_1"/> 
+                               <CLIENT_REF idref="cl_2"/> 
+                               <CLIENT_REF idref="cl_3"/> 
+                               <CLIENT_REF idref="cl_4"/> 
+                               <CLIENT_REF idref="cl_5"/> 
+                               <CLIENT_REF idref="cl_6"/> 
+                               <CLIENT_REF idref="cl_7"/> 
+                               <CLIENT_REF idref="cl_8"/> 
+                               <CLIENT_REF idref="cl_9"/> 
+                               <CLIENT_REF idref="cl_10"/> 
+                            </CLIENTS>
+                        </PARTICIPANTS>
+                    </SESSION>
+                    <SESSION id="s_2">
+                      <DEBUT>2023-01-03</DEBUT>
+                      <FIN>2023-01-15</FIN>
+                      <PARTICIPANTS>
+                          <PERSONNELS>
+                              <ENSEIGNANTS>
+                                  <ENSEIGNANT_REF idref="e_3" />
+                              </ENSEIGNANTS>
+                              <ACCOMPAGNATEURS>
+                                  <ACCOMPAGNATEUR_REF idref="a_3"/>
+                                  <ACCOMPAGNATEUR_REF idref="a_4" />
+                              </ACCOMPAGNATEURS>
+                          </PERSONNELS>
+                          <CLIENTS>
+                            <CLIENT_REF idref="cl_6"/> 
+                            <CLIENT_REF idref="cl_7"/> 
+                            <CLIENT_REF idref="cl_8"/> 
+                            <CLIENT_REF idref="cl_9"/> 
+                            <CLIENT_REF idref="cl_10"/> 
+                            <CLIENT_REF idref="cl_11"/> 
+                            <CLIENT_REF idref="cl_12"/> 
+                            <CLIENT_REF idref="cl_13"/> 
+                            <CLIENT_REF idref="cl_14"/> 
+                            <CLIENT_REF idref="cl_15"/> 
+                          </CLIENTS>
+                      </PARTICIPANTS>
+                  </SESSION>
+                </SESSIONS>
+                <DESTINATIONS>
+                    <DESTINATION_REF idref="d_2" />
+                </DESTINATIONS>
+                <LANGUES_ENSEIGNEES>
+                    <LANGUE_ENSEIGNEE idref="l_8">
+                        <COURS>
+                            <NOM>Initiation à la langue japonaise : Ecrit ET Oral</NOM>
+                            <CHAPITRES>
+                                <CHAPITRE id="c_1">
+                                    <TITRE>initiation aux lettres japonais</TITRE>
+                                    <CONTENU> Les lettres japonaises comprennent trois types d'écriture : les kanjis, les hiraganas et les katakanas. 
+                                        Les kanjis sont des caractères d'origine chinoise qui représentent des mots ou des idées, tandis que les hiraganas et les katakanas sont des syllabaires japonais. 
+                                        Les hiraganas sont utilisés pour les mots courants, tandis que les katakanas sont souvent utilisés pour les mots étrangers ou pour transcrire des noms propres.
+                                         L'initiation aux lettres japonaises peut inclure l'apprentissage de l'alphabet hiragana et katakana, 
+                                         ainsi que la pratique de l'écriture des kanjis.</CONTENU>
+                                </CHAPITRE>
+                                <CHAPITRE id="c_2">
+                                    <TITRE>communication</TITRE>
+                                    <CONTENU> Pour bien communiquer en japonais, il est important d'apprendre les expressions courantes utilisées dans la vie quotidienne et de comprendre les particularités de la langue japonaise. 
+                                        Par exemple, au Japon, il est courant d'utiliser des suffixes pour montrer le niveau de respect ou d'affection que l'on porte à une personne. 
+                                        Ainsi, on peut ajouter le suffixe "-san" après le nom d'une personne pour montrer du respect, ou le suffixe "-chan" pour montrer de l'affection.</CONTENU>
+                                </CHAPITRE>
+                            </CHAPITRES>
+                        </COURS>
+                        <TEST>
+                            <NOM> test de niveau Japonais pour les débutants</NOM>
+                            <QUESTIONS>
+                                <QUESTION type ="avec choix">
+                                    <CONTENU>Quel est le nom des trois types d'écriture utilisés en japonais ?</CONTENU>
+                                    <LISTE_CHOIX>
+                                        <CHOIX>Kanjis, hiraganas, katakanas</CHOIX>
+                                        <CHOIX> Romajis, hiraganas, katakanas</CHOIX>
+                                        <CHOIX>Kanjis, romajis, hiraganas</CHOIX>
+                                    </LISTE_CHOIX>
+                                    <POINTS>5</POINTS>
+                                    <CHAPITRE_REF idref="c_1" />
+                                </QUESTION>
+                                <QUESTION type="libre">
+                                   <CONTENU>Quels sont les expressions courantes en japonais ?</CONTENU>
+                                    <POINTS>5</POINTS>
+                                    <CHAPITRE_REF idref="c_1"/>
+                                </QUESTION>
+                            </QUESTIONS>
+                        </TEST>
+                    </LANGUE_ENSEIGNEE>
+                </LANGUES_ENSEIGNEES>
+                <LISTE_AVIS>
+                    <AVIS>
+                        <NOTE>10</NOTE>
+                        <COMMENTAIRE>EXCELLENT VOYAGE</COMMENTAIRE>
+                        <DATE>2020-10-10</DATE>
+                        <SESSION_REF idref="s_1" />
+                        <CLIENT_REF idref="cl_1"></CLIENT_REF>
+                    </AVIS>
+                    <AVIS>
+                      <NOTE>8</NOTE>
+                      <COMMENTAIRE>WOW !!</COMMENTAIRE>
+                      <DATE>2020-10-11</DATE>
+                      <SESSION_REF idref="s_1" />
+                      <CLIENT_REF idref="cl_2"></CLIENT_REF>
+                  </AVIS>
+                </LISTE_AVIS>
+            </SEJOUR>
+
+            <SEJOUR type="groupes scolaires">
+            <NOM>Séjour en Italie</NOM>
+              <TYPES_PUBLIC>
+                  <TYPE_PUBLIC>adolescents</TYPE_PUBLIC>
+                  <TYPE_PUBLIC>adultes</TYPE_PUBLIC>
+              </TYPES_PUBLIC>
+              <DESCRIPTION>Partez en séjour linguistique en Italie pour apprendre l'italien dans deux villes magnifiques : Milan et Rome ! 
+                Ce séjour est spécialement conçu pour les étudiants qui souhaitent améliorer leur niveau d'italien tout en découvrant la culture italienne.
+
+                Vous passerez deux semaines à Milan et deux semaines à Rome, dans des familles d'accueil soigneusement sélectionnées 
+                pour vous offrir une immersion totale dans la vie quotidienne italienne. Vous aurez l'occasion de pratiquer votre italien en situation réelle et de découvrir les coutumes et les traditions locales.
+                </DESCRIPTION>
+              <TARIF>400$</TARIF>
+              <ACTIVITEES>
+                  <ACTIVITEE type="Loisir">
+                      <DESCRIPTION>Promenade dans les rues piétonnes de Milan et de Rome pour faire du shopping et découvrir les boutiques locales</DESCRIPTION>
+                  </ACTIVITEE>
+                  <ACTIVITEE type="Culture">
+                      <DESCRIPTION>Visite des monuments et des musées célèbres de Milan et de Rome, tels que le Duomo, le Château Sforzesco, la Galerie Vittorio Emanuele II, le Colisée, le Forum romain, le Vatican et la Chapelle Sixtine.</DESCRIPTION>
+                  </ACTIVITEE>
+                  <ACTIVITEE type="Culture">
+                    <DESCRIPTION>Dégustation de la cuisine italienne traditionnelle dans des restaurants locaux et participation à des ateliers culinaires.
+                    </DESCRIPTION>
+                </ACTIVITEE>
+              </ACTIVITEES>
+              <SESSIONS>
+                  <SESSION id="s_3">
+                      <DEBUT>2023-02-01</DEBUT>
+                      <FIN>2021-02-12</FIN>
+                      <PARTICIPANTS>
+                          <PERSONNELS>
+                              <ENSEIGNANTS>
+                                  <ENSEIGNANT_REF idref="e_5" />
+                              </ENSEIGNANTS>
+                              <ACCOMPAGNATEURS>
+                                  <ACCOMPAGNATEUR_REF idref="a_1"/>
+                              </ACCOMPAGNATEURS>
+                          </PERSONNELS>
+                          <CLIENTS>
+                             <CLIENT_REF idref="cl_7"/> 
+                             <CLIENT_REF idref="cl_8"/> 
+                             <CLIENT_REF idref="cl_9"/> 
+                             <CLIENT_REF idref="cl_10"/> 
+                             <CLIENT_REF idref="cl_6"/> 
+                             <CLIENT_REF idref="cl_11"/> 
+                             <CLIENT_REF idref="cl_12"/> 
+                             <CLIENT_REF idref="cl_13"/> 
+                             <CLIENT_REF idref="cl_14"/> 
+                            <CLIENT_REF idref="cl_15"/>
+                            <CLIENT_REF idref="cl_16"/>
+                          </CLIENTS>
+                      </PARTICIPANTS>
+                  </SESSION>
+              </SESSIONS>
+              <DESTINATIONS>
+                  <DESTINATION_REF idref="d_6" />
+                  <DESTINATION_REF idref="d_11" />
+              </DESTINATIONS>
+              <LANGUES_ENSEIGNEES>
+                  <LANGUE_ENSEIGNEE idref="l_9">
+                      <COURS>
+                          <NOM>Parle</NOM>
+                          <CHAPITRES>
+                              <CHAPITRE id="c_5">
+                                  <TITRE>Parlare italiano</TITRE>
+                                  <CONTENU>Communication en italien</CONTENU>
+                              </CHAPITRE>
+                          </CHAPITRES>
+                      </COURS>
+                      <TEST>
+                          <NOM> Test de compétences en expression orale en italien</NOM>
+                          <QUESTIONS>
+                              <QUESTION type="libre">
+                                  <CONTENU>qu'est ce que tu as appris ?</CONTENU>
+                                  <POINTS>20</POINTS>
+                                  <CHAPITRE_REF idref="c_5" />
+                              </QUESTION>
+                          </QUESTIONS>
+                      </TEST>
+                  </LANGUE_ENSEIGNEE>
+              </LANGUES_ENSEIGNEES>
+              <LISTE_AVIS>
+                  <AVIS>
+                      <NOTE>7</NOTE>
+                      <COMMENTAIRE>BIEN</COMMENTAIRE>
+                      <DATE>2021-01-10</DATE>
+                      <SESSION_REF idref="s_1" />
+                      <CLIENT_REF idref="cl_9"></CLIENT_REF>
+                  </AVIS>
+                  <AVIS>
+                    <NOTE>8</NOTE>
+                    <COMMENTAIRE>WOW !!</COMMENTAIRE>
+                    <DATE>2020-10-11</DATE>
+                    <SESSION_REF idref="s_1" />
+                    <CLIENT_REF idref="cl_10"></CLIENT_REF>
+                </AVIS>
+              </LISTE_AVIS>
+          </SEJOUR>
+        </SEJOURS>
+
+        <ENSEIGNANTS>
+            <ENSEIGNANT id="e_1">
+                <NOM>EL ACHKAR</NOM>
+                <PRENOM>Badr</PRENOM>
+                <EMAIL>badr@gmail.com</EMAIL>
+                <ENSEIGNEMENTS>
+                    <LANGUE_REF idref ="l_1"/>
+                    <LANGUE_REF idref="l_2"/>
+                  </ENSEIGNEMENTS>
+            </ENSEIGNANT>
+            <ENSEIGNANT id="e_2">
+                <NOM>BEN AISSA</NOM>
+                <PRENOM>Nadim</PRENOM>
+                <EMAIL>nadimbenaissa@gmail.com</EMAIL>
+                <ENSEIGNEMENTS>
+                    <LANGUE_REF idref ="l_1"/>
+                    <LANGUE_REF idref="l_2"/>
+                  </ENSEIGNEMENTS>
+            </ENSEIGNANT>
+            <ENSEIGNANT id="e_3">
+              <NOM>Dubois</NOM>
+              <PRENOM>Alice</PRENOM>
+              <EMAIL>alice.dubois@univ.fr</EMAIL>
+              <ENSEIGNEMENTS>
+                  <LANGUE_REF idref="l_1"/>
+                  <LANGUE_REF idref="l_3"/>
+              </ENSEIGNEMENTS>
+          </ENSEIGNANT>
+        </ENSEIGNANTS>
+        <ACCOMPAGNATEURS >    
+            <ACCOMPAGNATEUR id="a_1" >
+                <NOM>Martinet</NOM>
+                <PRENOM>Jean</PRENOM>
+                <EMAIL>jean@gmail.com</EMAIL>
+            </ACCOMPAGNATEUR>
+            <ACCOMPAGNATEUR  id="a_2">
+              <NOM>Lefebvre</NOM>
+              <PRENOM>Isabelle</PRENOM>
+              <EMAIL>isabelle.lefebvre@gmail.com</EMAIL>
+            </ACCOMPAGNATEUR>
+            <ACCOMPAGNATEUR  id="a_3">
+              <NOM>Dubois</NOM>
+              <PRENOM>Antoine</PRENOM>
+              <EMAIL>antoine.dubois@gmail.com</EMAIL>
+            </ACCOMPAGNATEUR>
+        </ACCOMPAGNATEURS>  
+    </AGENCE>
+    <AGENCE>
+        <NOM>Voyageons et Apprenons</NOM>
+        <ADRESSE>
+            <AVENUE> Route des Dolines</AVENUE>
+            <CODE_POSTAL>06560</CODE_POSTAL>
+            <VILLE>Valbonne</VILLE>
+            <PAYS>FRANCE</PAYS>
+        </ADRESSE>
+        <SEJOURS>
+            <SEJOUR type="immersions en famille">
+                <NOM>voyage de reve et études les Etats Unis </NOM>
+                <TYPES_PUBLIC>
+                    <TYPE_PUBLIC>familles</TYPE_PUBLIC>
+                    <TYPE_PUBLIC>enfants</TYPE_PUBLIC>
+                </TYPES_PUBLIC>
+                <DESCRIPTION>Venez découvrir les deux villes les plus touristiques des États-Unis, Los Angeles et New York, tout en pratiquant votre anglais avec une famille d'accueil locale.   
+                    &#xA; Vous passerez deux semaines dans chaque ville, en vous imprégnant de la culture américaine, en vous liant d'amitié avec votre famille d'accueil et en pratiquant votre anglais tous les jours.</DESCRIPTION>
+                <TARIF>1000$</TARIF>
+                <ACTIVITEES>
+                    <ACTIVITEE type="Sport">
+                        <DESCRIPTION>Assister à un match de basket-ball de la NBA à Los Angeles</DESCRIPTION>
+                    </ACTIVITEE>
+                    <ACTIVITEE type="Sport">
+                        <DESCRIPTION>Faire une promenade à vélo ou à pied sur la High Line à New York</DESCRIPTION>
+                    </ACTIVITEE>
+                    <ACTIVITEE type="Culture">
+                        <DESCRIPTION>Découvrir les étoiles sur le Hollywood Walk of Fame à Los Angeles</DESCRIPTION>
+                    </ACTIVITEE>
+                    <ACTIVITEE type="Culture">
+                        <DESCRIPTION>Visiter le Metropolitan Museum of Art à New York</DESCRIPTION>
+                    </ACTIVITEE>
+                </ACTIVITEES>
+                <SESSIONS>
+                    <SESSION id="s_4">
+                        <DEBUT>2022-10-12</DEBUT>
+                        <FIN>2022-10-24</FIN>
+                        <PARTICIPANTS>
+                            <PERSONNELS>
+                                <ENSEIGNANTS>
+                                    <ENSEIGNANT_REF idref="e_5" />
+                                    <ENSEIGNANT_REF idref="e_6" />
+                                </ENSEIGNANTS>
+                                <ACCOMPAGNATEURS>
+                                    <ACCOMPAGNATEUR_REF idref="a_4"/>
+                                    <ACCOMPAGNATEUR_REF idref="a_5" />
+                                </ACCOMPAGNATEURS>
+                            </PERSONNELS>
+                            <CLIENTS>
+                               <CLIENT_REF idref="cl_11"/> 
+                               <CLIENT_REF idref="cl_12"/> 
+                               <CLIENT_REF idref="cl_13"/> 
+                               <CLIENT_REF idref="cl_14"/> 
+                               <CLIENT_REF idref="cl_15"/> 
+                               <CLIENT_REF idref="cl_16"/> 
+                               <CLIENT_REF idref="cl_17"/> 
+                               <CLIENT_REF idref="cl_18"/> 
+                               <CLIENT_REF idref="cl_19"/> 
+                               <CLIENT_REF idref="cl_20"/> 
+                            </CLIENTS>
+                        </PARTICIPANTS>
+                    </SESSION>
+                </SESSIONS>
+                <DESTINATIONS>
+                    <DESTINATION_REF idref="d_3" />
+                    <DESTINATION_REF idref="d_4" />
+                </DESTINATIONS>
+            </SEJOUR>
+            <SEJOUR type="immersions en famille">
+                <NOM>voyage vers la Tunisie </NOM>
+                <TYPES_PUBLIC>
+                    <TYPE_PUBLIC>familles</TYPE_PUBLIC>
+                </TYPES_PUBLIC>
+                <DESCRIPTION>Découvrez la Tunisie à travers notre programme de séjour linguistique qui vous permettra d'apprendre la langue arabe tout en découvrant la culture et les traditions de ce beau pays.
+                     Vous aurez l'opportunité de participer à des cours de langue, des activités culturelles, des excursions dans les villes historiques, ainsi que des rencontres avec des locaux pour découvrir leur mode de vie et leur cuisine locale.
+                      Venez vivre une expérience unique et enrichissante dans un cadre convivial et chaleureux.</DESCRIPTION>
+                <TARIF>299$</TARIF>
+                <ACTIVITEES>
+                    <ACTIVITEE type="Culture">
+                        <DESCRIPTION>Visite de la médina de Tunis, Bardo et Carthage pour découvrir l'histoire et la culture de la Tunisie.</DESCRIPTION>
+                    </ACTIVITEE>
+                    <ACTIVITEE type="Culture">
+                        <DESCRIPTION>Visite de la célèbre ville bleue de Sidi Bou Saïd pour découvrir son charme méditerranéen et son architecture traditionnelle.</DESCRIPTION>
+                    </ACTIVITEE>
+                    <ACTIVITEE type="Loisir">
+                        <DESCRIPTION>Profiter des plages, des sports nautiques et des activités de plein air dans les stations balnéaires de Tunisie.
+                        </DESCRIPTION>
+                    </ACTIVITEE>
+                </ACTIVITEES>
+                <SESSIONS>
+                    <SESSION id="s_5">
+                        <DEBUT>2023-02-15</DEBUT>
+                        <FIN>2023-02-28</FIN>
+                        <PARTICIPANTS>
+                            <PERSONNELS>
+                                <ENSEIGNANTS>
+                                    <ENSEIGNANT_REF idref="e_5" />
+                                    <ENSEIGNANT_REF idref="e_6" />
+                                </ENSEIGNANTS>
+                                <ACCOMPAGNATEURS>
+                                    <ACCOMPAGNATEUR_REF idref="a_4"/>
+                                    <ACCOMPAGNATEUR_REF idref="a_5" />
+                                </ACCOMPAGNATEURS>
+                            </PERSONNELS>
+                            <CLIENTS>
+                               <CLIENT_REF idref="cl_11"/> 
+                               <CLIENT_REF idref="cl_12"/> 
+                               <CLIENT_REF idref="cl_13"/> 
+                               <CLIENT_REF idref="cl_14"/> 
+                               <CLIENT_REF idref="cl_15"/> 
+                               <CLIENT_REF idref="cl_16"/> 
+                               <CLIENT_REF idref="cl_17"/> 
+                               <CLIENT_REF idref="cl_18"/> 
+                               <CLIENT_REF idref="cl_19"/> 
+                               <CLIENT_REF idref="cl_20"/> 
+                            </CLIENTS>
+                        </PARTICIPANTS>
+                    </SESSION>
+                </SESSIONS>
+                <DESTINATIONS>
+                    <DESTINATION_REF idref="d_5" />
+                    <DESTINATION_REF idref="d_7" />
+                </DESTINATIONS>
+                <LANGUES_ENSEIGNEES>
+                    <LANGUE_ENSEIGNEE idref="l_6">
+                        <COURS>
+                            <NOM>Parle</NOM>
+                            <CHAPITRES>
+                                <CHAPITRE id="c_10">
+                                    <TITRE>Parlare italiano</TITRE>
+                                    <CONTENU>Communication en arabe</CONTENU>
+                                </CHAPITRE>
+                            </CHAPITRES>
+                        </COURS>
+                        <TEST>
+                            <NOM> Test de compétences en expression orale en arabe</NOM>
+                            <QUESTIONS>
+                                <QUESTION type="libre">
+                                    <CONTENU>qu'est ce que tu as appris ?</CONTENU>
+                                    <POINTS>20</POINTS>
+                                    <CHAPITRE_REF idref="c_10" />
+                                </QUESTION>
+                            </QUESTIONS>
+                        </TEST>
+                    </LANGUE_ENSEIGNEE>
+                </LANGUES_ENSEIGNEES>
+                <LISTE_AVIS>
+                    <AVIS>
+                        <NOTE>7</NOTE>
+                        <COMMENTAIRE>BIEN</COMMENTAIRE>
+                        <DATE>2021-01-10</DATE>
+                        <SESSION_REF idref="s_1" />
+                        <CLIENT_REF idref="cl_9"></CLIENT_REF>
+                    </AVIS>
+                    <AVIS>
+                      <NOTE>8</NOTE>
+                      <COMMENTAIRE>WOW !!</COMMENTAIRE>
+                      <DATE>2020-10-11</DATE>
+                      <SESSION_REF idref="s_1" />
+                      <CLIENT_REF idref="cl_10"></CLIENT_REF>
+                  </AVIS>
+                </LISTE_AVIS>
+            </SEJOUR>
+        </SEJOURS>
+        <ENSEIGNANTS>
+        <ENSEIGNANT id="e_4">
+            <NOM>Lefèvre</NOM>
+            <PRENOM>Étienne</PRENOM>
+            <EMAIL>etienne.lefevre@univ.fr</EMAIL>
+            <ENSEIGNEMENTS>
+                <LANGUE_REF idref="l_1"/>
+            </ENSEIGNEMENTS>
+        </ENSEIGNANT>
+        <ENSEIGNANT id="e_5">
+            <NOM>Petit</NOM>
+            <PRENOM>Marie</PRENOM>
+            <EMAIL>marie.petit@univ.fr</EMAIL>
+            <ENSEIGNEMENTS>
+                <LANGUE_REF idref="l_2"/>
+                <LANGUE_REF idref="l_3"/>
+            </ENSEIGNEMENTS>
+        </ENSEIGNANT>
+        <ENSEIGNANT id="e_6">
+            <NOM>Moreau</NOM>
+            <PRENOM>Antoine</PRENOM>
+            <EMAIL>antoine.moreau@univ.fr</EMAIL>
+            <ENSEIGNEMENTS>
+                <LANGUE_REF idref="l_1"/>
+                <LANGUE_REF idref="l_4"/>
+            </ENSEIGNEMENTS>
+        </ENSEIGNANT>
+        <ENSEIGNANT id="e_7">
+            <NOM>Fontaine</NOM>
+            <PRENOM>Camille</PRENOM>
+            <EMAIL>camille.fontaine@univ.fr</EMAIL>
+            <ENSEIGNEMENTS>
+                <LANGUE_REF idref="l_2"/>
+                <LANGUE_REF idref="l_3"/>
+            </ENSEIGNEMENTS>
+        </ENSEIGNANT>
+        <ENSEIGNANT id="e_8">
+            <NOM>Durand</NOM>
+            <PRENOM>Thierry</PRENOM>
+            <EMAIL>thierry.durand@univ.fr</EMAIL>
+            <ENSEIGNEMENTS>
+                <LANGUE_REF idref="l_2"/>
+                <LANGUE_REF idref="l_4"/>
+            </ENSEIGNEMENTS>
+        </ENSEIGNANT>
+        <ENSEIGNANT id="e_9">
+            <NOM>Berger</NOM>
+            <PRENOM>Isabelle</PRENOM>
+            <EMAIL>isabelle.berger@univ.fr</EMAIL>
+            <ENSEIGNEMENTS>
+                <LANGUE_REF idref="l_1"/>
+                <LANGUE_REF idref="l_3"/>
+            </ENSEIGNEMENTS>
+        </ENSEIGNANT>
+        <ENSEIGNANT id="e_10">
+            <NOM>Marchand</NOM>
+            <PRENOM>Lucie</PRENOM>
+            <EMAIL>lucie.marchand@univ.fr</EMAIL>
+            <ENSEIGNEMENTS>
+                <LANGUE_REF idref="l_2"/>
+                <LANGUE_REF idref="l_4"/>
+            </ENSEIGNEMENTS>
+        </ENSEIGNANT>
+        </ENSEIGNANTS>
+        <ACCOMPAGNATEURS>
+            <ACCOMPAGNATEUR  id="a_4">
+                <NOM>Morin</NOM>
+                <PRENOM>Valérie</PRENOM>
+                <EMAIL>valerie.morin@gmail.com</EMAIL>
+              </ACCOMPAGNATEUR>
+              <ACCOMPAGNATEUR  id="a_5">
+                <NOM>Perrin</NOM>
+                <PRENOM>Julien</PRENOM>
+                <EMAIL>julien.perrin@gmail.com</EMAIL>
+              </ACCOMPAGNATEUR>
+        </ACCOMPAGNATEURS>
+    </AGENCE>
+</AGENCES>
+
+
+<CLIENTS>
+    <CLIENT id="cl_0">
+        <NOM>EL ACHKAR</NOM>
+        <PRENOM>Badr</PRENOM>
+    </CLIENT>
+    <CLIENT id="cl_1">
+      <NOM>Dubois</NOM>
+      <PRENOM>Marie</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_2">
+      <NOM>Lefebvre</NOM>
+      <PRENOM>Antoine</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_3">
+      <NOM>Moreau</NOM>
+      <PRENOM>Camille</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_4">
+      <NOM>Leclerc</NOM>
+      <PRENOM>Lucas</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_5">
+      <NOM>Leroy</NOM>
+      <PRENOM>Julie</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_6">
+      <NOM>Fontaine</NOM>
+      <PRENOM>Benjamin</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_7">
+      <NOM>Laurent</NOM>
+      <PRENOM>Léa</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_8">
+      <NOM>Martin</NOM>
+      <PRENOM>Thomas</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_9">
+      <NOM>Girard</NOM>
+      <PRENOM>Emma</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_10">
+      <NOM>Bernard</NOM>
+      <PRENOM>Nathan</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_11">
+      <NOM>Durand</NOM>
+      <PRENOM>Sarah</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_12">
+      <NOM>Dumont</NOM>
+      <PRENOM>Axel</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_13">
+      <NOM>Roux</NOM>
+      <PRENOM>Chloé</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_14">
+      <NOM>Blanc</NOM>
+      <PRENOM>Maxime</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_15">
+      <NOM>Guillaume</NOM>
+      <PRENOM>Manon</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_16">
+      <NOM>Lecomte</NOM>
+      <PRENOM>Théo</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_17">
+      <NOM>Joly</NOM>
+      <PRENOM>Lucie</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_18">
+      <NOM>Renard</NOM>
+      <PRENOM>Paul</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_19">
+      <NOM>Boucher</NOM>
+      <PRENOM>Laura</PRENOM>
+  </CLIENT>
+  <CLIENT id="cl_20">
+      <NOM>Caron</NOM>
+      <PRENOM>Valentin</PRENOM>
+  </CLIENT>
+</CLIENTS>
+
+<LANGUES>
+    <LANGUE id="l_1">
+      <NOM>Anglais</NOM>
+      <NIVEAU>A1</NIVEAU>
+    </LANGUE>
+    <LANGUE  id="l_0">
+        <NOM>Anglais</NOM>
+        <NIVEAU>A2</NIVEAU>
+      </LANGUE>
+      <LANGUE  id="l_2">
+        <NOM>Anglais</NOM>
+        <NIVEAU>B1</NIVEAU>
+      </LANGUE>
+      <LANGUE  id="l_3">
+        <NOM>Anglais</NOM>
+        <NIVEAU>B2</NIVEAU>
+      </LANGUE>
+    <LANGUE  id="l_4">
+      <NOM>Espagnol</NOM>
+      <NIVEAU>A2</NIVEAU>
+    </LANGUE>
+    <LANGUE  id="l_5">
+      <NOM>Français</NOM>
+      <NIVEAU>C2</NIVEAU>
+    </LANGUE>
+    <LANGUE  id="l_6">
+      <NOM>Arabe</NOM>
+      <NIVEAU>A1</NIVEAU>
+    </LANGUE>
+    <LANGUE  id="l_7">
+      <NOM>Mandarin</NOM>
+      <NIVEAU>B1</NIVEAU>
+    </LANGUE>
+    <LANGUE  id="l_8">
+      <NOM>Japonais</NOM>
+      <NIVEAU>A1</NIVEAU>
+    </LANGUE>
+    <LANGUE  id="l_9">
+        <NOM>Italien</NOM>
+        <NIVEAU>B1</NIVEAU>
+      </LANGUE>  
+      
+      <LANGUE  id="l_10">
+        <NOM>Italien</NOM>
+        <NIVEAU>A2</NIVEAU>
+      </LANGUE>
+  </LANGUES>
+
+<DESTINATIONS>
+    <DESTINATION id="d_1">
+      <VILLE>Paris</VILLE>
+      <PAYS>France</PAYS>
+    </DESTINATION>
+    <DESTINATION id="d_2">
+      <VILLE>Tokyo</VILLE>
+      <PAYS>Japon</PAYS>
+    </DESTINATION>
+    <DESTINATION id="d_3">
+      <VILLE>New York</VILLE>
+      <PAYS>États-Unis</PAYS>
+    </DESTINATION>
+    <DESTINATION id="d_4">
+      <VILLE>Los Angelos</VILLE>
+      <PAYS>États-Unis</PAYS>
+    </DESTINATION>
+    <DESTINATION id="d_5">
+      <VILLE>Tunis</VILLE>
+      <PAYS>Tunisie</PAYS>
+    </DESTINATION>
+    <DESTINATION id="d_7">
+        <VILLE>Hammamet</VILLE>
+        <PAYS>Tunisie</PAYS>
+      </DESTINATION>
+    <DESTINATION id="d_6">
+      <VILLE>Rome</VILLE>
+      <PAYS>Italie</PAYS>
+    </DESTINATION>
+    <DESTINATION id="d_11">
+        <VILLE>Milan</VILLE>
+        <PAYS>Italie</PAYS>
+      </DESTINATION>
+    <DESTINATION id="d_8">
+      <VILLE>Bangkok</VILLE>
+      <PAYS>Thaïlande</PAYS>
+    </DESTINATION>
+    <DESTINATION id="d_9">
+      <VILLE>Singapour</VILLE>
+      <PAYS>Singapour</PAYS>
+    </DESTINATION>
+    <DESTINATION id="d_10">
+      <VILLE>Cape Town</VILLE>
+      <PAYS>Afrique du Sud</PAYS>
+    </DESTINATION>
+  </DESTINATIONS>
+
+
+</ORGANISME>

@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+ }
+ h1, h2 {
+    color: #d40075;
+    font-size: 2em;
+    margin: 2 auto;
+     text-align: center;
+    
+ }
+
+ .cartes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ h3 {
+       color: #005FAF;
+       font-size: 1.5em;
+ }
+
+ .sejour h4 {
+     font-style: italic;
+ }
+
+
+ h2 img {
+     width: 50px; /* ajustez la taille selon vos besoins */
+     margin-left: 10px; /* ajustez la marge selon vos besoins */
+     }
+     .sejour {
+        border: 1px solid #CCC;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        background-color: #FFF;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        width: 45%;
+        flex-basis: calc(45% - 20px);
+    }
+    
+ .sejour h2 {
+     font-size: 1.5em;
+     margin: 0 auto;
+     text-align: center;
+     color: #FFA500; /* couleur orange */
+
+ }
+ .sejour p {
+    font-size: 1em;
+    margin-bottom: 10px;
+ }
+ .sejour span {
+    font-size: 1em;
+       font-weight: bold;
+    color: #005FAF;
+ }
+ .sejour ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+
+ .sejour .activites nb{
+    font-size: 1.0em;
+       font-style: italic;
+    margin: 0;
+ }
+ .sejour ul li {
+    margin-bottom: 5px;
+ }
+ .sejour .activites {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .sejour .activites act {
+     color: #4b92e9;
+    font-size: 1.0em;
+       font-weight: bold;
+    margin: 0;
+
+ }
+ .sejour .activites ul {
+    flex: 1 1 50%;
+    margin: 0;
+    padding: 0;
+ }
+ .sejour .activites ul li {
+    margin-left: 25px;
+    position: relative;
+ }
+ .sejour .activites ul li:before {
+    content: "\2022";
+    position: absolute;
+    left: -20px;
+    top: 2px;
+    color: #005FAF;
+ }
+
+
+
+
+.sejour .sessions ul li:before {
+content: "";
+display: inline-block;
+width: 8px;
+height: 8px;
+background-color: #FFA500;
+border-radius: 50%;
+position: absolute;
+left: -1.2em;
+top: 0.5em;
+}
