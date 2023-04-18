@@ -138,19 +138,33 @@
                 </LANGUES_ENSEIGNEES>
                 <LISTE_AVIS>
                     <AVIS>
-                        <NOTE>10</NOTE>
+                        <NOTE>9</NOTE>
                         <COMMENTAIRE>EXCELLENT VOYAGE</COMMENTAIRE>
-                        <DATE>2020-10-10</DATE>
+                        <DATE>2022-10-10</DATE>
                         <SESSION_REF idref="s_1" />
                         <CLIENT_REF idref="cl_1"></CLIENT_REF>
                     </AVIS>
                     <AVIS>
-                      <NOTE>8</NOTE>
-                      <COMMENTAIRE>WOW !!</COMMENTAIRE>
-                      <DATE>2020-10-11</DATE>
-                      <SESSION_REF idref="s_1" />
+                      <NOTE>9</NOTE>
+                      <COMMENTAIRE>Un bon voyage</COMMENTAIRE>
+                      <DATE>2022-10-13</DATE>
+                      <SESSION_REF idref="s_2" />
                       <CLIENT_REF idref="cl_2"></CLIENT_REF>
                   </AVIS>
+                  <AVIS>
+                    <NOTE>8</NOTE>
+                    <COMMENTAIRE>J'aime bien, et je conseille tout le monde de participer</COMMENTAIRE>
+                    <DATE>2022-10-12</DATE>
+                    <SESSION_REF idref="s_3" />
+                    <CLIENT_REF idref="cl_3"></CLIENT_REF>
+                </AVIS>
+                <AVIS>
+                    <NOTE>7</NOTE>
+                    <COMMENTAIRE>Globalement ça bien passé</COMMENTAIRE>
+                    <DATE>2020-10-11</DATE>
+                    <SESSION_REF idref="s_2" />
+                    <CLIENT_REF idref="cl_4"></CLIENT_REF>
+                </AVIS>
                 </LISTE_AVIS>
             </SEJOUR>
 
@@ -237,18 +251,25 @@
               </LANGUES_ENSEIGNEES>
               <LISTE_AVIS>
                   <AVIS>
-                      <NOTE>7</NOTE>
-                      <COMMENTAIRE>BIEN</COMMENTAIRE>
-                      <DATE>2021-01-10</DATE>
+                      <NOTE>8</NOTE>
+                      <COMMENTAIRE>J'aime bien l'Italie et j'ai trop appris de cette langue merveilleuse.</COMMENTAIRE>
+                      <DATE>2023-01-01</DATE>
                       <SESSION_REF idref="s_1" />
                       <CLIENT_REF idref="cl_9"></CLIENT_REF>
                   </AVIS>
                   <AVIS>
-                    <NOTE>8</NOTE>
-                    <COMMENTAIRE>WOW !!</COMMENTAIRE>
-                    <DATE>2020-10-11</DATE>
+                    <NOTE>7</NOTE>
+                    <COMMENTAIRE>A recommander !</COMMENTAIRE>
+                    <DATE>2023-01-03</DATE>
                     <SESSION_REF idref="s_1" />
                     <CLIENT_REF idref="cl_10"></CLIENT_REF>
+                </AVIS>
+                <AVIS>
+                    <NOTE>4</NOTE>
+                    <COMMENTAIRE>Malheureusement trop de problemes et c'etait pas organisé du tout</COMMENTAIRE>
+                    <DATE>2020-01-10</DATE>
+                    <SESSION_REF idref="s_1" />
+                    <CLIENT_REF idref="cl_11"></CLIENT_REF>
                 </AVIS>
               </LISTE_AVIS>
           </SEJOUR>
@@ -429,7 +450,7 @@
                             <NOM>Parle</NOM>
                             <CHAPITRES>
                                 <CHAPITRE id="c_10">
-                                    <TITRE>Parlare italiano</TITRE>
+                                    <TITRE>Apprendre l'arabe</TITRE>
                                     <CONTENU>Communication en arabe</CONTENU>
                                 </CHAPITRE>
                             </CHAPITRES>
@@ -450,16 +471,16 @@
                     <AVIS>
                         <NOTE>7</NOTE>
                         <COMMENTAIRE>BIEN</COMMENTAIRE>
-                        <DATE>2021-01-10</DATE>
+                        <DATE>2023-03-09</DATE>
                         <SESSION_REF idref="s_1" />
-                        <CLIENT_REF idref="cl_9"></CLIENT_REF>
+                        <CLIENT_REF idref="cl_19"></CLIENT_REF>
                     </AVIS>
                     <AVIS>
                       <NOTE>8</NOTE>
-                      <COMMENTAIRE>WOW !!</COMMENTAIRE>
-                      <DATE>2020-10-11</DATE>
+                      <COMMENTAIRE>J'ai découvert une nouvelle langue et une autre culture impressionnante</COMMENTAIRE>
+                      <DATE>2023-03-11</DATE>
                       <SESSION_REF idref="s_1" />
-                      <CLIENT_REF idref="cl_10"></CLIENT_REF>
+                      <CLIENT_REF idref="cl_20"></CLIENT_REF>
                   </AVIS>
                 </LISTE_AVIS>
             </SEJOUR>
