@@ -1,207 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.1">
-
-<xs:element name="ORGANISME" type="ORGANISME_TYPE"/>
-
-<xs:complexType name="ORGANISME_TYPE">
+  <xs:element name="ORGANISME" type="ORGANISME_TYPE"/>
+  <xs:complexType name="ORGANISME_TYPE">
     <xs:sequence>
-        <xs:element name="AGENCES" maxOccurs="1" minOccurs="1">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element type="AGENCE_TYPE" name="AGENCE" maxOccurs="unbounded" minOccurs="0"/>
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        <xs:element name="CLIENTS" maxOccurs="1" minOccurs="0">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element type="CLIENT_TYPE" name="CLIENT" maxOccurs="unbounded" minOccurs="1"/>
-              </xs:sequence>
-            </xs:complexType>
-        </xs:element>
-        <xs:element name="LANGUES" maxOccurs="1" minOccurs="0">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element type="LANGUE_TYPE" name="LANGUE" maxOccurs="unbounded" minOccurs="0"/>
-              </xs:sequence>
-            </xs:complexType>
-        </xs:element>
-        <xs:element name="DESTINATIONS" maxOccurs="1" minOccurs="0">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element type="DESTINATION_TYPE" name="DESTINATION" maxOccurs="unbounded" minOccurs="0"/>
-              </xs:sequence>
-            </xs:complexType>
-        </xs:element>
+      <xs:element name="AGENCES" maxOccurs="1" minOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="AGENCE_TYPE" name="AGENCE" maxOccurs="unbounded" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CLIENTS" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="CLIENT_TYPE" name="CLIENT" maxOccurs="unbounded" minOccurs="1"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="LANGUES" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="LANGUE_TYPE" name="LANGUE" maxOccurs="unbounded" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DESTINATIONS" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="DESTINATION_TYPE" name="DESTINATION" maxOccurs="unbounded" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
     </xs:sequence>
-</xs:complexType>
-
-
-
-
-<xs:complexType name="AGENCE_TYPE">
+  </xs:complexType>
+  <xs:complexType name="AGENCE_TYPE">
     <xs:sequence>
       <xs:element name="NOM" type="xs:string"/>
       <xs:element name="ADRESSE" type="ADRESSE_TYPE"/>
-
-        <xs:element name="SEJOURS" maxOccurs="1" minOccurs="0">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element type="SEJOUR_TYPE" name="SEJOUR" maxOccurs="unbounded" minOccurs="0"/>
-              </xs:sequence>
-            </xs:complexType>
-        </xs:element>
-        <xs:element name="ENSEIGNANTS" maxOccurs="1" minOccurs="0">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element type="ENSEIGNANT_TYPE" name="ENSEIGNANT" maxOccurs="unbounded" minOccurs="0"/>
-              </xs:sequence>
-            </xs:complexType>
-        </xs:element>
-        <xs:element name="ACCOMPAGNATEURS" maxOccurs="1" minOccurs="0">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element type="ACCOMPAGNATEUR_TYPE" name="ACCOMPAGNATEUR" maxOccurs="unbounded" minOccurs="0"/>
-              </xs:sequence>
-            </xs:complexType>
-        </xs:element>
+      <xs:element name="SEJOURS" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="SEJOUR_TYPE" name="SEJOUR" maxOccurs="unbounded" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ENSEIGNANTS" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="ENSEIGNANT_TYPE" name="ENSEIGNANT" maxOccurs="unbounded" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ACCOMPAGNATEURS" maxOccurs="1" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="ACCOMPAGNATEUR_TYPE" name="ACCOMPAGNATEUR" maxOccurs="unbounded" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
     </xs:sequence>
-</xs:complexType>
-
-
-<xs:complexType name="SEJOUR_TYPE">
-  <xs:sequence>
-    <xs:element name="NOM" type="xs:string"/>
-    <xs:element name="TYPES_PUBLIC" maxOccurs="1" minOccurs="0">
+  </xs:complexType>
+  <xs:complexType name="SEJOUR_TYPE">
+    <xs:sequence>
+      <xs:element name="NOM" type="xs:string"/>
+      <xs:element name="TYPES_PUBLIC" maxOccurs="1" minOccurs="0">
         <xs:complexType>
           <xs:sequence>
             <xs:element type="TYPE_PUBLIC_TYPE" name="TYPE_PUBLIC" maxOccurs="unbounded" minOccurs="0"/>
           </xs:sequence>
         </xs:complexType>
-    </xs:element>
-    <xs:element name="DESCRIPTION" type="xs:string"/>
-    <xs:element name="TARIF" type="MONEY_TYPE" />
-    <xs:element name="ACTIVITEES" maxOccurs="1" minOccurs="0">
+        <xs:unique name="uniqueTypePublic">
+          <xs:selector xpath="./TYPE_PUBLIC"/>
+          <xs:field xpath="."/>
+        </xs:unique>
+      </xs:element>
+      <xs:element name="DESCRIPTION" type="xs:string"/>
+      <xs:element name="TARIF" type="MONEY_TYPE" />
+      <xs:element name="ACTIVITEES" maxOccurs="1" minOccurs="0">
         <xs:complexType>
           <xs:sequence>
             <xs:element type="ACTIVITEE_TYPE" name="ACTIVITEE" maxOccurs="unbounded" minOccurs="0"/>
           </xs:sequence>
         </xs:complexType>
-    </xs:element>
-
-    <xs:element name="SESSIONS" maxOccurs="1" minOccurs="0">
+      </xs:element>
+      <xs:element name="SESSIONS" maxOccurs="1" minOccurs="0">
         <xs:complexType>
           <xs:sequence>
             <xs:element type="SESSION_TYPE" name="SESSION" maxOccurs="unbounded" minOccurs="0"/>
           </xs:sequence>
         </xs:complexType>
-    </xs:element>
-
-    <xs:element name="DESTINATIONS" maxOccurs="1" minOccurs="0">
+      </xs:element>
+      <xs:element name="DESTINATIONS" maxOccurs="1" minOccurs="0">
         <xs:complexType>
           <xs:sequence>
             <xs:element type="REF_TYPE" name="DESTINATION_REF" maxOccurs="unbounded" minOccurs="0"/>
           </xs:sequence>
         </xs:complexType>
-    </xs:element>
-
-    <xs:element name="LANGUES_ENSEIGNEES" maxOccurs="1" minOccurs="0">
+      </xs:element>
+      <xs:element name="LANGUES_ENSEIGNEES" maxOccurs="1" minOccurs="0">
         <xs:complexType>
           <xs:sequence>
             <xs:element type="LANGUE_ENSEIGNEE_TYPE" name="LANGUE_ENSEIGNEE" maxOccurs="unbounded" minOccurs="0"/>
           </xs:sequence>
         </xs:complexType>
-    </xs:element>
-
-    <xs:element name="LISTE_AVIS" maxOccurs="1" minOccurs="0">
+      </xs:element>
+      <xs:element name="LISTE_AVIS" maxOccurs="1" minOccurs="0">
         <xs:complexType>
           <xs:sequence>
             <xs:element type="AVIS_TYPE" name="AVIS" maxOccurs="unbounded" minOccurs="0"/>
           </xs:sequence>
         </xs:complexType>
-    </xs:element>
-  </xs:sequence>
-  <xs:attribute type="TYPE_SEJOUR_TYPE" name="type" use="required"/>
-</xs:complexType>
-
-
-
-<xs:simpleType name="MONEY_TYPE">
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="TYPE_SEJOUR_TYPE" name="type" use="required"/>
+  </xs:complexType>
+  <xs:simpleType name="MONEY_TYPE">
     <xs:restriction base="xs:string">
       <xs:pattern value="\d+\$"/>
     </xs:restriction>
   </xs:simpleType>
-
-
-<xs:complexType name="CLIENT_TYPE">
-  <xs:sequence>
-    <xs:element name="NOM" type="NAME_TYPE"/>
-    <xs:element name="PRENOM" type="NAME_TYPE"/>
-  </xs:sequence>
-  <xs:attribute name="id" use="required">
-    <xs:simpleType>
-      <xs:restriction base="xs:ID">
-        <xs:pattern value="cl_.*"/>
-      </xs:restriction>
-    </xs:simpleType>
-    </xs:attribute>
-</xs:complexType>
-
-<xs:complexType name="ENSEIGNANT_TYPE">
-  <xs:sequence>
-    <xs:element name="NOM" type="NAME_TYPE"/>
-    <xs:element name="PRENOM" type="NAME_TYPE"/>
-    <xs:element name="EMAIL" type="EMAIL_TYPE"/>
-    <xs:element name="ENSEIGNEMENTS" minOccurs="0" maxOccurs="1">
-      <xs:complexType>
-        <xs:sequence>
-          <xs:element name="LANGUE_REF" type="REF_TYPE" minOccurs="0" maxOccurs="unbounded"/>
-        </xs:sequence>
-      </xs:complexType>
-    </xs:element>
-  </xs:sequence>
-  <xs:attribute name="id" use="required">
-    <xs:simpleType>
-      <xs:restriction base="xs:ID">
-        <xs:pattern value="e_.*"/>
-      </xs:restriction>
-    </xs:simpleType>
-    </xs:attribute></xs:complexType>
-
-<xs:complexType name="ACCOMPAGNATEUR_TYPE">
-  <xs:sequence>
-    <xs:element name="NOM" type="NAME_TYPE"/>
-    <xs:element name="PRENOM" type="NAME_TYPE"/>
-    <xs:element name="EMAIL" type="EMAIL_TYPE"/>
-  </xs:sequence>
-  <xs:attribute name="id" use="optional">
-    <xs:simpleType>
-      <xs:restriction base="xs:ID">
-        <xs:pattern value="a_.*"/>
-      </xs:restriction>
-    </xs:simpleType>
+  <xs:complexType name="CLIENT_TYPE">
+    <xs:sequence>
+      <xs:element name="NOM" type="NAME_TYPE"/>
+      <xs:element name="PRENOM" type="NAME_TYPE"/>
+    </xs:sequence>
+    <xs:attribute name="id" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:ID">
+          <xs:pattern value="cl_.*"/>
+        </xs:restriction>
+      </xs:simpleType>
     </xs:attribute>
   </xs:complexType>
-
-<xs:simpleType name="EMAIL_TYPE">
+  <xs:complexType name="ENSEIGNANT_TYPE">
+    <xs:sequence>
+      <xs:element name="NOM" type="NAME_TYPE"/>
+      <xs:element name="PRENOM" type="NAME_TYPE"/>
+      <xs:element name="EMAIL" type="EMAIL_TYPE"/>
+      <xs:element name="ENSEIGNEMENTS" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="LANGUE_REF" type="REF_TYPE" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:ID">
+          <xs:pattern value="e_.*"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="ACCOMPAGNATEUR_TYPE">
+    <xs:sequence>
+      <xs:element name="NOM" type="NAME_TYPE"/>
+      <xs:element name="PRENOM" type="NAME_TYPE"/>
+      <xs:element name="EMAIL" type="EMAIL_TYPE"/>
+    </xs:sequence>
+    <xs:attribute name="id" use="optional">
+      <xs:simpleType>
+        <xs:restriction base="xs:ID">
+          <xs:pattern value="a_.*"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:simpleType name="EMAIL_TYPE">
     <xs:restriction base="xs:string">
       <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"/>
     </xs:restriction>
   </xs:simpleType>
-
-<xs:simpleType name="NAME_TYPE">
+  <xs:simpleType name="NAME_TYPE">
     <xs:restriction base="xs:string">
       <xs:minLength value="3"/>
       <xs:maxLength value="20"/>
     </xs:restriction>
   </xs:simpleType>
-
-  
   <xs:complexType name="SESSION_TYPE">
     <xs:sequence>
-        <xs:element name="DEBUT" type="xs:date"/>
-        <xs:element name="FIN" type="xs:date"/>
-        <xs:element name="PARTICIPANTS" type="PARTICIPANTS_TYPE"/>
+      <xs:element name="DEBUT" type="xs:date"/>
+      <xs:element name="FIN" type="xs:date"/>
+      <xs:element name="PARTICIPANTS" type="PARTICIPANTS_TYPE"/>
     </xs:sequence>
     <xs:attribute name="id" use="optional">
       <xs:simpleType>
@@ -209,9 +190,8 @@
           <xs:pattern value="s_.*"/>
         </xs:restriction>
       </xs:simpleType>
-      </xs:attribute>
+    </xs:attribute>
   </xs:complexType>
-
   <xs:complexType name="PARTICIPANTS_TYPE">
     <xs:sequence>
       <xs:element name="PERSONNELS" type="PERSONNELS_TYPE" minOccurs="0"/>
@@ -228,9 +208,6 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-
-
-
   <xs:complexType name="PERSONNELS_TYPE">
     <xs:sequence>
       <xs:element name="ENSEIGNANTS" minOccurs="0">
@@ -257,13 +234,11 @@
       </xs:element>
     </xs:sequence>
   </xs:complexType>
-
   <xs:complexType name="CLIENTS_TYPE">
     <xs:sequence>
       <xs:element name="CLIENT" type="REF_TYPE" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
-
   <xs:complexType name="REF_TYPE">
     <xs:simpleContent>
       <xs:extension base="xs:string">
@@ -271,7 +246,6 @@
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
-
   <xs:complexType name="DESTINATION_REF_TYPE">
     <xs:simpleContent>
       <xs:extension base="xs:string">
@@ -279,33 +253,31 @@
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
-
-<xs:complexType name="LANGUE_TYPE">
-      <xs:sequence>
-        <xs:element name="NOM" type="NAME_TYPE"/>
-        <xs:element name="NIVEAU">
-            <xs:simpleType>
-                <xs:restriction base="xs:string">
-                    <xs:enumeration value="A1"/>
-                    <xs:enumeration value="A2"/>
-                    <xs:enumeration value="B1"/>
-                    <xs:enumeration value="B2"/>
-                    <xs:enumeration value="C1"/>
-                    <xs:enumeration value="C2"/>
-                </xs:restriction>
-            </xs:simpleType>
-        </xs:element>
-      </xs:sequence>
-      <xs:attribute name="id" use="required">
+  <xs:complexType name="LANGUE_TYPE">
+    <xs:sequence>
+      <xs:element name="NOM" type="NAME_TYPE"/>
+      <xs:element name="NIVEAU">
         <xs:simpleType>
-          <xs:restriction base="xs:ID">
-            <xs:pattern value="l_.*"/>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="A1"/>
+            <xs:enumeration value="A2"/>
+            <xs:enumeration value="B1"/>
+            <xs:enumeration value="B2"/>
+            <xs:enumeration value="C1"/>
+            <xs:enumeration value="C2"/>
           </xs:restriction>
         </xs:simpleType>
-        </xs:attribute>
- </xs:complexType>
-
- <xs:complexType name="DESTINATION_TYPE">
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:ID">
+          <xs:pattern value="l_.*"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="DESTINATION_TYPE">
     <xs:sequence>
       <xs:element name="VILLE" type="NAME_TYPE" />
       <xs:element name="PAYS" type="NAME_TYPE"/>
@@ -316,16 +288,14 @@
           <xs:pattern value="d_.*"/>
         </xs:restriction>
       </xs:simpleType>
-      </xs:attribute>  </xs:complexType>
-
-
+    </xs:attribute>
+  </xs:complexType>
   <xs:complexType name="ACTIVITEE_TYPE">
     <xs:sequence>
       <xs:element name="DESCRIPTION" type="xs:string"/>
     </xs:sequence>
     <xs:attribute name="type" type="TYPE_ACTIVITE_TYPE"/>
   </xs:complexType>
-
   <xs:simpleType name="TYPE_ACTIVITE_TYPE">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Sport"/>
@@ -333,7 +303,6 @@
       <xs:enumeration value="Loisir"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="TYPE_SEJOUR_TYPE">
     <xs:restriction base="xs:string">
       <xs:enumeration value="colonies de vacances"/>
@@ -341,7 +310,6 @@
       <xs:enumeration value="immersions en famille"/>
     </xs:restriction>
   </xs:simpleType>
-
   <xs:simpleType name="TYPE_PUBLIC_TYPE">
     <xs:restriction base="xs:string">
       <xs:enumeration value="adultes"/>
@@ -350,8 +318,6 @@
       <xs:enumeration value="adolescents"/>
     </xs:restriction>
   </xs:simpleType>
-
-
   <xs:complexType name="AVIS_TYPE">
     <xs:sequence>
       <xs:element name="NOTE" type="NOTE_TYPE"/>
@@ -367,108 +333,82 @@
       <xs:maxInclusive value="10"/>
     </xs:restriction>
   </xs:simpleType>
-
-
-  
   <xs:complexType name="TEST_TYPE">
     <xs:sequence>
-        <xs:element name="NOM" type="xs:string"/>
+      <xs:element name="NOM" type="xs:string"/>
       <xs:element name="QUESTIONS" type="QUESTIONS_TYPE"/>
     </xs:sequence>
   </xs:complexType>
-
   <xs:complexType name="QUESTIONS_TYPE">
     <xs:sequence>
-  <xs:element name="QUESTION" maxOccurs="unbounded">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="CONTENU" type="xs:string"/>
-        
-        <xs:element name="LISTE_CHOIX" minOccurs="0" maxOccurs="unbounded">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="CHOIX" type="xs:string" maxOccurs="unbounded"/>
-            </xs:sequence>
-          </xs:complexType>
-          <xs:unique name="uniqueChoix">
-            <xs:selector xpath="./CHOIX"/>
-            <xs:field xpath="."/>
-          </xs:unique>
-        </xs:element>
-        <xs:element name="POINTS" type="xs:integer"/>
-        <xs:element name="CHAPITRE_REF" type="REF_TYPE"/>
-      </xs:sequence>
-      
-      <xs:attribute name="type">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:enumeration value="libre"/>
-            <xs:enumeration value="avec choix"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:attribute>
-    </xs:complexType>
-  </xs:element>
-</xs:sequence>
-</xs:complexType>
-
-  
-<xs:complexType name="CHAPITRE_TYPE">
-  <xs:sequence>
-    <xs:element name="TITRE" type="xs:string"/>
-    <xs:element name="CONTENU" type="xs:string"/>
-  </xs:sequence>
-  <xs:attribute name="id" use="required">
-    <xs:simpleType>
-      <xs:restriction base="xs:ID">
-        <xs:pattern value="c_.*"/>
-      </xs:restriction>
-    </xs:simpleType>
+      <xs:element name="QUESTION" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="CONTENU" type="xs:string"/>
+            <xs:element name="LISTE_CHOIX" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CHOIX" type="xs:string" maxOccurs="unbounded"/>
+                </xs:sequence>
+              </xs:complexType>
+              <xs:unique name="uniqueChoix">
+                <xs:selector xpath="./CHOIX"/>
+                <xs:field xpath="."/>
+              </xs:unique>
+            </xs:element>
+            <xs:element name="POINTS" type="xs:integer"/>
+            <xs:element name="CHAPITRE_REF" type="REF_TYPE"/>
+          </xs:sequence>
+          <xs:attribute name="type">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="libre"/>
+                <xs:enumeration value="avec choix"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CHAPITRE_TYPE">
+    <xs:sequence>
+      <xs:element name="TITRE" type="xs:string"/>
+      <xs:element name="CONTENU" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="id" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:ID">
+          <xs:pattern value="c_.*"/>
+        </xs:restriction>
+      </xs:simpleType>
     </xs:attribute>
-</xs:complexType>
-
-<xs:complexType name="COURS_TYPE">
+  </xs:complexType>
+  <xs:complexType name="COURS_TYPE">
     <xs:sequence>
-        <xs:element name="NOM" type="xs:string"/>
-        <xs:element name="CHAPITRES" maxOccurs="1" minOccurs="1">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element type="CHAPITRE_TYPE" name="CHAPITRE" maxOccurs="unbounded" minOccurs="0"/>
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="LANGUE_ENSEIGNEE_TYPE">
+      <xs:element name="NOM" type="xs:string"/>
+      <xs:element name="CHAPITRES" maxOccurs="1" minOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="CHAPITRE_TYPE" name="CHAPITRE" maxOccurs="unbounded" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LANGUE_ENSEIGNEE_TYPE">
     <xs:sequence>
-        <xs:element name="COURS" type="COURS_TYPE"></xs:element>
-        <xs:element name="TEST" type="TEST_TYPE"></xs:element>
+      <xs:element name="COURS" type="COURS_TYPE"></xs:element>
+      <xs:element name="TEST" type="TEST_TYPE"></xs:element>
     </xs:sequence>
     <xs:attribute type="xs:IDREF" name="idref" use="required"/>
-</xs:complexType>
-
-<xs:complexType name="ADRESSE_TYPE">
-      <xs:sequence>
-        <xs:element name="AVENUE" type="xs:string"/>
-        <xs:element name="CODE_POSTAL" type="xs:string"/>
-        <xs:element name="VILLE" type="xs:string"/>
-        <xs:element name="PAYS" type="xs:string"/>
-      </xs:sequence>
-</xs:complexType>  
-
-
-<!-- to verify -->
-<xs:element name="validatoe">
-<xs:key name="chapitreKey">
-  <xs:selector xpath="CHAPITRE"/>
-  <xs:field xpath="@id" />
-</xs:key>
-<xs:keyref name="chapitreRef" refer="chapitreKey">
-  <xs:selector xpath="CHAPITRE_REF"/>
-  <xs:field xpath="@idRef"/>
-</xs:keyref>
-</xs:element>
-<!-- to verify -->
-
+  </xs:complexType>
+  <xs:complexType name="ADRESSE_TYPE">
+    <xs:sequence>
+      <xs:element name="AVENUE" type="xs:string"/>
+      <xs:element name="CODE_POSTAL" type="xs:string"/>
+      <xs:element name="VILLE" type="xs:string"/>
+      <xs:element name="PAYS" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
 </xs:schema>

@@ -1,0 +1,76 @@
+{
+  "type": "object",
+  "properties": {
+    "tests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nom": {
+            "type": "string"
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "avec choix",
+                    "libre"
+                  ]
+                },
+                "contenu": {
+                  "type": "string"
+                },
+                "liste_choix": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "choix": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "choix"
+                    ]
+                  }
+                },
+                "points": {
+                  "type": "integer",
+                  "maximum": 5
+                }
+              },
+              "required": [
+                "type",
+                "contenu",
+                "points"
+              ],
+              "if": {
+                "properties": {
+                  "type": {
+                    "const": "avec choix"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "liste_choix"
+                ]
+              }
+            }
+          }
+        },
+        "required": [
+          "nom",
+          "questions"
+        ]
+      }
+    }
+  },
+  "required": [
+    "tests"
+  ]
+}

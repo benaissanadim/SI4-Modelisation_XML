@@ -1,0 +1,87 @@
+{
+    "tests": [
+        {
+            "nom": " test de niveau Japonais pour les débutants",
+            "questions": [
+                {
+                    "type": "avec choix",
+                    "contenu": "Quel est le nom des trois types d'écriture utilisés en japonais ?",
+                    "liste_choix": [
+                        {
+                            "choix": "Kanjis, hiraganas, katakanas"
+                        },
+                        {
+                            "choix": " Romajis, hiraganas, katakanas"
+                        },
+                        {
+                            "choix": "Kanjis, romajis, hiraganas"
+                        }
+                    ],
+                    "points": 2
+                },
+                {
+                    "type": "libre",
+                    "contenu": "Quels sont les expressions courantes en japonais ?",
+                    "points": 4
+                },
+                {
+                    "type": "libre",
+                    "contenu": "Exprimez vous en japonais",
+                    "points": 4
+                }
+            ]
+        },
+        {
+            "nom": " Test de compétences en arabe",
+            "questions": [
+                {
+                    "type": "avec choix",
+                    "contenu": " Combien de lettres en arabe ",
+                    "liste_choix": [
+                        {
+                            "choix": " 26 "
+                        },
+                        {
+                            "choix": " 27 "
+                        },
+                        {
+                            "choix": " 28 "
+                        }
+                    ],
+                    "points": 5
+                },
+                {
+                    "type": "libre",
+                    "contenu": " Introduisez vous en arabe §",
+                    "points": 5
+                }
+            ]
+        },
+        {
+            "nom": "Test de niveau Chinois pour les débutants",
+            "questions": [
+                {
+                    "type": "avec choix",
+                    "contenu": "Quels sont les caractères utilisés en écriture chinoise ?",
+                    "liste_choix": [
+                        {
+                            "choix": "Hiraganas, kanjis, katakanas"
+                        },
+                        {
+                            "choix": "Alphabets romains, cyrilliques, arabes"
+                        },
+                        {
+                            "choix": "Hanzis, pinyins, zhuyin fuhao"
+                        }
+                    ],
+                    "points": 5
+                },
+                {
+                    "type": "libre",
+                    "contenu": "Qu'est-ce que la tonalité en chinois ?",
+                    "points": 5
+                }
+            ]
+        }
+    ]
+}

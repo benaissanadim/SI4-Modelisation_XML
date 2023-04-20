@@ -1,0 +1,132 @@
+<LANGUES_ENSEIGNEES>
+    <LANGUE_ENSEIGNEE>
+        <INTITULE>Japonais</INTITULE>
+        <COURS>
+            <NOM>Initiation à la langue japonaise : Ecrit ET Oral</NOM>
+            <CHAPITRES>
+                <CHAPITRE id="c_1">
+                    <TITRE>initiation aux lettres japonais</TITRE>
+                    <CONTENU> Les lettres japonaises comprennent trois types d'écriture : les kanjis, les hiraganas et les katakanas. 
+                                         Les kanjis sont des caractères d'origine chinoise qui représentent des mots ou des idées, tandis que les hiraganas et les katakanas sont des syllabaires japonais. 
+                                         Les hiraganas sont utilisés pour les mots courants, tandis que les katakanas sont souvent utilisés pour les mots étrangers ou pour transcrire des noms propres.
+                                          L'initiation aux lettres japonaises peut inclure l'apprentissage de l'alphabet hiragana et katakana, 
+                                          ainsi que la pratique de l'écriture des kanjis.</CONTENU>
+                </CHAPITRE>
+                <CHAPITRE id="c_2">
+                    <TITRE>communication</TITRE>
+                    <CONTENU> Pour bien communiquer en japonais, il est important d'apprendre les expressions courantes utilisées dans la vie quotidienne et de comprendre les particularités de la langue japonaise. 
+                                         Par exemple, au Japon, il est courant d'utiliser des suffixes pour montrer le niveau de respect ou d'affection que l'on porte à une personne. 
+                                         Ainsi, on peut ajouter le suffixe "-san" après le nom d'une personne pour montrer du respect, ou le suffixe "-chan" pour montrer de l'affection.</CONTENU>
+                </CHAPITRE>
+            </CHAPITRES>
+        </COURS>
+        <TEST>
+            <NOM> test de niveau Japonais pour les débutants</NOM>
+            <QUESTIONS>
+                <QUESTION type="avec choix">
+                    <CONTENU>Quel est le nom des trois types d'écriture utilisés en japonais ?</CONTENU>
+                    <LISTE_CHOIX>
+                        <CHOIX>Kanjis, hiraganas, katakanas</CHOIX>
+                        <CHOIX> Romajis, hiraganas, katakanas</CHOIX>
+                        <CHOIX>Kanjis, romajis, hiraganas</CHOIX>
+                    </LISTE_CHOIX>
+                    <POINTS>2</POINTS>
+                    <CHAPITRE_REF idref="c_1"/>
+                </QUESTION>
+                <QUESTION type="libre">
+                    <CONTENU>Quels sont les expressions courantes en japonais ?</CONTENU>
+                    <POINTS>4</POINTS>
+                    <CHAPITRE_REF idref="c_1"/>
+                </QUESTION>
+                <QUESTION type="libre">
+                    <CONTENU>Exprimez vous en japonais</CONTENU>
+                    <POINTS>4</POINTS>
+                    <CHAPITRE_REF idref="c_1"/>
+                </QUESTION>
+            </QUESTIONS>
+        </TEST>
+        <ENSEIGNANT>
+            <NOM>EL ACHKAR</NOM>
+            <PRENOM>Badr</PRENOM>
+        </ENSEIGNANT>
+    </LANGUE_ENSEIGNEE>
+    <LANGUE_ENSEIGNEE>
+        <INTITULE>Arabe</INTITULE>
+        <COURS>
+            <NOM>Parle</NOM>
+            <CHAPITRES>
+                <CHAPITRE id="c_10">
+                    <TITRE>Apprendre l'arabe</TITRE>
+                    <CONTENU>Communication en arabe</CONTENU>
+                </CHAPITRE>
+            </CHAPITRES>
+        </COURS>
+        <TEST>
+            <NOM> Test de compétences en arabe</NOM>
+            <QUESTIONS>
+                <QUESTION type="avec choix">
+                    <CONTENU> Combien de lettres en arabe </CONTENU>
+                    <LISTE_CHOIX>
+                        <CHOIX> 26 </CHOIX>
+                        <CHOIX> 27 </CHOIX>
+                        <CHOIX> 28 </CHOIX>
+                    </LISTE_CHOIX>
+                    <POINTS>5</POINTS>
+                    <CHAPITRE_REF idref="c_10"/>
+                </QUESTION>
+                <QUESTION type="libre">
+                    <CONTENU> Introduisez vous en arabe §</CONTENU>
+                    <POINTS>5</POINTS>
+                    <CHAPITRE_REF idref="c_10"/>
+                </QUESTION>
+            </QUESTIONS>
+        </TEST>
+        <ENSEIGNANT>
+            <NOM>Ali</NOM>
+            <PRENOM>Aissa</PRENOM>
+        </ENSEIGNANT>
+    </LANGUE_ENSEIGNEE>
+    <LANGUE_ENSEIGNEE>
+        <INTITULE>Mandarin</INTITULE>
+        <COURS>
+            <NOM>Initiation à la langue chinoise : Ecrit ET Oral</NOM>
+            <CHAPITRES>
+                <CHAPITRE id="c_19">
+                    <TITRE>Initiation à l'écriture chinoise</TITRE>
+                    <CONTENU> L'écriture chinoise utilise des caractères appelés "hanzi". Ces caractères représentent des mots ou des idées et ont chacun une signification et une prononciation spécifiques.
+                     L'initiation à l'écriture chinoise peut inclure l'apprentissage des radicaux, des traits de base, ainsi que la pratique de l'écriture des caractères les plus courants.</CONTENU>
+                </CHAPITRE>
+                <CHAPITRE id="c_20">
+                    <TITRE>Communication</TITRE>
+                    <CONTENU> Pour bien communiquer en chinois, il est important d'apprendre les expressions courantes utilisées dans la vie quotidienne et de comprendre les particularités de la langue chinoise.
+                     Par exemple, en chinois, la tonalité est très importante. Un même mot peut avoir des significations différentes en fonction de la tonalité utilisée.
+                     L'initiation à la communication en chinois peut inclure l'apprentissage des tons, des expressions de politesse, et des phrases courantes.</CONTENU>
+                </CHAPITRE>
+            </CHAPITRES>
+        </COURS>
+        <TEST>
+            <NOM>Test de niveau Chinois pour les débutants</NOM>
+            <QUESTIONS>
+                <QUESTION type="avec choix">
+                    <CONTENU>Quels sont les caractères utilisés en écriture chinoise ?</CONTENU>
+                    <LISTE_CHOIX>
+                        <CHOIX>Hiraganas, kanjis, katakanas</CHOIX>
+                        <CHOIX>Alphabets romains, cyrilliques, arabes</CHOIX>
+                        <CHOIX>Hanzis, pinyins, zhuyin fuhao</CHOIX>
+                    </LISTE_CHOIX>
+                    <POINTS>5</POINTS>
+                    <CHAPITRE_REF idref="c_19"/>
+                </QUESTION>
+                <QUESTION type="libre">
+                    <CONTENU>Qu'est-ce que la tonalité en chinois ?</CONTENU>
+                    <POINTS>5</POINTS>
+                    <CHAPITRE_REF idref="c_20"/>
+                </QUESTION>
+            </QUESTIONS>
+        </TEST>
+        <ENSEIGNANT>
+            <NOM>Marchand</NOM>
+            <PRENOM>Lucie</PRENOM>
+        </ENSEIGNANT>
+    </LANGUE_ENSEIGNEE>
+</LANGUES_ENSEIGNEES>
