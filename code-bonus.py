@@ -5,7 +5,7 @@ current_path = os.path.abspath(__file__)
 
 dir_name = os.path.dirname(current_path)
 
-xml_path = os.path.join(dir_name, 'projet.xml')
+xml_path = os.path.join(dir_name, 'organisme.xml')
 
 # Parse the XML file
 tree = ET.parse(xml_path)
